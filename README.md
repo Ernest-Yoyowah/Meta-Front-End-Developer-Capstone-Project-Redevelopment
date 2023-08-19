@@ -1,2 +1,16 @@
 # CapstoneProject-Redevelopment
-## This repository contains the redevelopment of a Capstone Project that aims to modernize and enhance the existing application. The original project served as a foundation, and this redevelopment focuses on incorporating new features, improving user experience, and adopting updated technologies
+
+## Overview
+This repository contains the redevelopment of a Capstone Project.
+
+## Highlights
+- Modernization of an existing Capstone Project.
+- New features, improved design, and interaction.
+- Adoption of latest technologies for better performance.
+
+## Features
+- [x] New features and improved functionality.
+- [x] Enhanced user experience through design enhancements.
+- [x] Adoption of updated technologies.
+
+
