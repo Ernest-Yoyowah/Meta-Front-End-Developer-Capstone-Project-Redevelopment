@@ -21,7 +21,7 @@ const Review = () => {
         <div className='test-card-img'>
             <img src={ts4} alt='ts4'/>
         </div>
-        <h4>Rexford Gates</h4>
+        <h4>Ben Johnson</h4>
         <span>
           {[1, 2, 3, 4 ].map((ratingPoint, index) => (
             <FontAwesomeIcon
@@ -40,7 +40,7 @@ const Review = () => {
         <div className='test-card-img'>
             <img src={ts1} alt='ts1'/>
         </div>
-        <h4>Rexford Gates</h4>
+        <h4>Henry Addison</h4>
         <span>
           {[1, 2, 3, 4, 5].map((ratingPoint, index) => (
             <FontAwesomeIcon
@@ -59,7 +59,7 @@ const Review = () => {
         <div className='test-card-img'>
             <img src={ts2} alt='ts2'/>
         </div>
-        <h4>Rexford Gates</h4>
+        <h4>Alison James</h4>
         <span>
           {[1, 2, 3, 4, 5].map((ratingPoint, index) => (
             <FontAwesomeIcon
@@ -78,7 +78,7 @@ const Review = () => {
         <div className='test-card-img'>
             <img src={ts3} alt='ts3'/>
         </div>
-        <h4>Rexford Gates</h4>
+        <h4>Charles Dazie</h4>
         <span>
           {[1, 2, 3, 4, 5].map((ratingPoint, index) => (
             <FontAwesomeIcon

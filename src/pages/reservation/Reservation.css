@@ -1,0 +1,56 @@
+.reserve {
+    background: #fff;
+    font-family: 'Markazi Text', sans-serif;
+    min-height: 700px;
+}
+
+.reserve-text {
+    background: #495E57;
+    color: #fff;
+    height: 80px;
+    padding: .4rem;
+}
+.reserve-text h2 {
+    font-size: 30px;
+}
+
+.reserve-table {
+    background: #fff;
+    height: 150px;
+    color: #495E57;
+}
+
+
+
+.reservation-form {
+    display: grid;
+    max-width: 200px;
+    gap: 20px;
+  }
+  
+  .reservation-form label {
+    font-weight: bold;
+  }
+  
+  .reservation-form input[type="date"],
+  .reservation-form select,
+  .reservation-form input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .reservation-form input[type="submit"] {
+    background-color: #F4CE14;
+    color: #495E57;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .reservation-form input[type="submit"]:hover {
+    background-color: #495E57;
+    color: white;
+  }
