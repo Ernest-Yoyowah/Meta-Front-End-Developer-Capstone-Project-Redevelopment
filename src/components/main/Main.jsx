@@ -6,6 +6,7 @@ import bruchetta from '../../assets/bruchetta.svg'
 import './Main.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faMotorcycle } from '@fortawesome/free-solid-svg-icons';
+import { NavLink } from 'react-router-dom';
 
 
 const Main = () => {
@@ -14,11 +15,7 @@ const Main = () => {
       <div className='main-top'>
         <h2>This week specials!</h2>
           <div className='menu-btn'>
-            <a
-                href='#order'
-            >
-              Online Menu
-              </a>
+              <NavLink to='/order'>Online Menu</NavLink>
           </div>
       </div>
 
@@ -40,37 +37,10 @@ const Main = () => {
               </p>
             </div>
             <div className='footer-btn'>
-              <a
-                href='#order'
-              >
-                Order a delivery <FontAwesomeIcon icon={faMotorcycle} />
-               </a>
-              </div>
-          </div>
-        </div>
-
-        <div className='w-container'>
-          <div className='meal-card'>
-            <div className='meal-card-img'>
-              <img src={lemon} alt='salad'/>
-            </div>
-            <div className='meal-card-header'>
-              <h3>Lemon Dessert</h3>
-              <span>$12.99</span>
-            </div>
-            <div className='meal-card-footer'>
-              <p>
-                The famous greek salad of crispy lettuce, peppers,
-                olives and our Chicago style feta cheese, garnished
-                with crunchy garlic and rosemary croutons.
-              </p>
-            </div>
-            <div className='footer-btn'>
-              <a
-                href='#order'
-              >
-                Order a delivery <FontAwesomeIcon icon={faMotorcycle} />
-              </a>
+               <NavLink to="/order" >
+                  Order a delivery &nbsp;
+                  <FontAwesomeIcon icon={faMotorcycle}/>
+               </NavLink>
               </div>
           </div>
         </div>
@@ -92,11 +62,35 @@ const Main = () => {
               </p>
             </div>
             <div className='footer-btn'>
-              <a
-                href='#order'
-              >
-                Order a delivery <FontAwesomeIcon icon={faMotorcycle} />
-              </a>
+              <NavLink to="/order" >
+                  Order a delivery &nbsp;
+                  <FontAwesomeIcon icon={faMotorcycle}/>
+              </NavLink>
+              </div>
+          </div>
+        </div>
+
+        <div className='w-container'>
+          <div className='meal-card'>
+            <div className='meal-card-img'>
+              <img src={lemon} alt='salad'/>
+            </div>
+            <div className='meal-card-header'>
+              <h3>Lemon Dessert</h3>
+              <span>$12.99</span>
+            </div>
+            <div className='meal-card-footer'>
+              <p>
+                The famous greek salad of crispy lettuce, peppers,
+                olives and our Chicago style feta cheese, garnished
+                with crunchy garlic and rosemary croutons.
+              </p>
+            </div>
+            <div className='footer-btn'>
+              <NavLink to="/order" >
+                  Order a delivery &nbsp;
+                  <FontAwesomeIcon icon={faMotorcycle}/>
+              </NavLink>
               </div>
           </div>
         </div>

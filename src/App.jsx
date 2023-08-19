@@ -19,7 +19,7 @@ function App() {
       <Route path='/reservation' element={<Reservation />} />
       <Route path='/order' element={<Order />} />
       <Route path='/login' element={<Login />} />
-      <Route path='/notpage' element={<Notpage />} />
+      <Route path='*' element={<Notpage />} />
     </Routes>
     </BrowserRouter>
   )

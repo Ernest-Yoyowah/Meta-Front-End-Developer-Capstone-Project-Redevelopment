@@ -9,46 +9,47 @@
 .head-text {
     display: flex;
     align-items: center;
-    margin: 0 51px 0;
+    margin: 0;
     height: 314px;
-    padding: 0 7rem;
+    padding: 0 10rem;
 }
 
 .text-content {
     flex: 1;
-    margin-top: -80px;
+    margin-top: -1rem;
 }
 
 .head-text h1 {
     color: #F4CE14;
-    width: 432px;
-    height: 40px;
-    font-size: 56px;
+    width: 232px;
+    /* height: 40px; */
+    font-size: 38px;
     font-family: 'Markazi Text', sans-serif;
-    font-weight: 190;
-    padding: 2rem 0;
+    font-weight: 560;
+    padding: 0 ;
 }
 
 .head-text h2 {
     color: #ffffff;
-    width: 432px;
+    width: 120px;
     height: 40px;
-    font-size: 40px;
+    font-size: 28px;
     font-family: 'Markazi Text', sans-serif;
-    font-weight: 190;
-    margin-top: -15px;
+    font-weight: 570;
+    margin-top: -1.6rem;
 }
 
 .head-text p {
     color: #ffffff;
     width: 432px;
-    height: 40px;
+    height: 50px;
     font-size: 16px;
     font-family: sans-serif;
     margin: 24px 0 50px;
+    text-align: left;
 }
 
-.cta {
+.head-text a {
     width: 148px;
     height: 46px;
     top: 10px;
@@ -62,20 +63,24 @@
     text-decoration: none;
 }
 
-.cta a {
-    color: #495E57;
+
+
+.head-text a:hover {
+    background: #495E57;
+    color: white;
+}
+
+.cta {
+    left: 0;
+    width: 160px;
 }
 
 .food-logo {
     width: 432px;
     height: 384px;
     border-radius: 15px;
-    /* margin: 0 0 -70px; */
-    /* margin-left: 550px; */
-    /* margin-top: -200px; */
-    /* Adjust the margin and positioning as needed */
 }
 
 .image-container {
-    margin: 150px 0px 0;
+    margin: 170px 0px 0;
 }

@@ -1,6 +1,8 @@
 import React, { useState } from 'react'
 import logoF from '../../assets/restauranfood.jpg';
 
+import { BrowserRouter, Routes, Route, NavLink} from 'react-router-dom';
+
 import './Hero.css';
 
 
@@ -25,9 +27,9 @@ const Hero = () => {
                 We are a family-owned Mediterranean restaurant,
                 focused on traditional recipes served with a modern twist.
               </p>
-            <a className='cta' href="#reservation">
-              Reserve a table
-            </a>
+              <div className='cta'>
+              <NavLink to='/reservation'>Reserve a table</NavLink>
+              </div>
         </div>
       <div className="image-container">
     <img className='food-logo' src={logoF} alt='logo'/>

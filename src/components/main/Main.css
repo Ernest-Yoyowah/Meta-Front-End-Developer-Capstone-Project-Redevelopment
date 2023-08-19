@@ -1,6 +1,7 @@
 .main-section {
     padding: 8rem 10rem;
     max-height: 500px;
+    background: #fff;
 }
 
 .main-top {
@@ -21,7 +22,6 @@
     border-radius: 2rem;
     background-color: #F4CE14;
     color: #495E57;
-    border: 0.1875rem solid #F4CE14;
     transition: background, border, color 0.5s;
 
     display: inline-block;
@@ -35,6 +35,15 @@
     text-decoration: none;
 }
 
+.menu-btn a:hover {
+    color: #fff;
+}
+
+.menu-btn:hover {
+    background-color: #495E57;
+
+}
+
 .week-specials {
     display: flex;
     padding: 2rem 0;
@@ -45,8 +54,9 @@
     grid-column: auto;
     grid-row: 2;
     min-height: 30.25rem;
-    /* padding-bottom: 2.5rem; */
-    display: flex;
+    color: #495E57;
+    font-family: 'Markazi Text', sans-serif;
+    /* display: flex; */
     flex-direction: column;
     border-radius: 1rem;
     overflow: hidden;
@@ -75,18 +85,18 @@
 .meal-card-footer {
     padding-left: 1.25rem;
     padding-right: 1.25rem;
+    text-align: left;
 }
 
 .meal-card-header {
-    width: 293px;
-    height: 27px;
-    gap: 1.25rem;
+    gap: 1rem;
     display: flex;
     justify-content: space-between;
     margin-bottom: 1.785rem;
 }
 .meal-card-header h3 {
     font-size: 1.15rem;
+    margin: 0;
 }
 
 .meal-card-header span {
@@ -99,8 +109,12 @@
     color: #495E57;
 }
 
+.footer-btn a:hover {
+    color: #495E57;
+}
+
 .footer-btn {
-    margin-left: 1rem;
     margin-top: 2.5rem;
     max-width: 180px;
+    color: #495E57;
 }

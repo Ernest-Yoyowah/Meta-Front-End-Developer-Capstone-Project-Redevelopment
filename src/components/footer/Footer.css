@@ -1,0 +1,78 @@
+.footer-section {
+    background: #495E57;
+    min-height: 300px;
+    font-family: 'Markazi Text', sans-serif;
+    text-align: left;
+}
+
+.ft-container {
+    display: flex;
+    padding: 2rem 10rem;
+    color: #fff;
+}
+
+.ft-container img {
+    width: 96px;
+    height: 183px;
+}
+
+.site-map {
+    margin-left: 5rem;
+    margin-top: 0;
+    padding: 0 0;
+
+    display: flex;
+    flex-direction: column
+}
+
+.site-map h3 {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 16px;
+    margin: 0 0 10px;
+    width: 183px;
+    height: 24px;
+}
+.site-map a{
+    color: #fff;
+    width: 42px;
+    font-size: 16px;
+    font-weight: 100;
+}
+
+.site-map a:hover {
+    color: #F4CE14;
+}
+
+.contact-section  h3{
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 16px;
+    margin: 0 0 16px;
+    width: 183px;
+    height: 24px;
+}
+
+.contact-section p {
+    color: #fff;
+    margin-top: 10px;
+}
+
+.connect a {
+    color: white;
+    font-size: 20px;
+    margin-right: 15px;
+}
+
+.connect h3 {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 16px;
+    margin: 0 0 16px;
+    width: 183px;
+    height: 24px;
+}
+
+.connect {
+    margin-left: 4rem;
+}

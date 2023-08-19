@@ -1,0 +1,40 @@
+.about-section {
+    padding: 3rem 10rem;
+    display: flex;
+    background: #fff;
+    color: #495E57;
+    text-align: left;
+    font-family: 'Markazi Text';
+}
+.about-section h1{
+    width: 255px;
+    height: 60px;
+    color: #F4CE14;
+    font-size: 45px;
+    font-family: 'Markazi Text';
+    font-weight: 600;
+    padding:  0;
+    margin: 0;
+}
+
+.about-section h3{
+    width: 255px;
+    font-size: 30px;
+    max-height: 50px;
+    margin: 0;
+    padding: 0;
+}
+
+.about-section p{
+    width: 455px;
+    height: 360px;
+    padding: 1rem 0;
+}
+
+.image-in img{
+    width: 455px;
+    height: 303px;
+    margin-left: 8.2rem;
+    margin-top: 10px;
+    border-radius: 15px;
+}
