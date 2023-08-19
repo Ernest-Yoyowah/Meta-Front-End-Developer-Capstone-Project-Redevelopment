@@ -1,12 +1,15 @@
 import React from 'react'
 import Navbar from '../../components/navbar/nav';
+import Footer from '../../components/footer/Footer';
+import Uderconstruction from '../../container/underconstruction/Uderconstruction';
 
 
 const Order = () => {
   return (
     <>
     <Navbar />
-    <h3>Make your Order</h3>
+    <Uderconstruction />
+    <Footer />
     </>
   )
 }

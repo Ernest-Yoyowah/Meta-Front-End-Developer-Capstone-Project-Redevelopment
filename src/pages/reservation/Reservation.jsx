@@ -5,7 +5,6 @@ const Reservation = () => {
   return (
     <>
     <Navbar />
-    <h3>Reserv a table </h3>
     </>
   )
 }

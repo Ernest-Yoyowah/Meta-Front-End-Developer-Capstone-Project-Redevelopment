@@ -1,0 +1,21 @@
+.under-const {
+    background: #fff;
+    min-width: 200px;
+    height: 500px;
+    font-family: 'Markazi Text', sans-serif;
+    text-align: left;
+    color: #495E57;
+}
+
+.under-const h1 {
+    text-align: center;
+    font-size: 30px;
+}
+
+.under-const p {
+    text-align: center;
+}
+.line {
+    background: #495E57;
+    height: 1rem;
+}

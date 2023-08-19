@@ -1,11 +1,14 @@
 import React from 'react'
 import Navbar from '../../components/navbar/nav';
+import Uderconstruction from '../../container/underconstruction/Uderconstruction';
+import Footer from '../../components/footer/Footer';
 
 const Menu = () => {
   return (
     <>
     <Navbar />
-    <h3>Our menu</h3>
+    <Uderconstruction />
+    <Footer />
     </>
   )
 }
