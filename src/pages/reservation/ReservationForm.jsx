@@ -1,8 +1,18 @@
-import React from 'react';
+import React, {useState} from 'react';
 
 import './Reservation.css';
 
 const ReservationForm = () => {
+  const [isConfirmed, setIsConfirmed] = useState(false);
+
+  const handleFormSubmit = (e) => {
+    e.preventDefault();
+    console.log("Form submitted");
+    setIsConfirmed(true);
+  }
+
+  console.log("isConfirmed:", isConfirmed);
+
   return (
     <div className='Fmain'>
     <form className='FM'>
@@ -26,6 +36,12 @@ const ReservationForm = () => {
       </select>
       <input type="submit" value="Make Your reservation" />
     </form>
+    {isConfirmed && (
+        <div className="confirmation">
+          <p>Your reservation has been confirmed.</p>
+          <p>You will receive an email with all the details.</p>
+        </div>
+      )}
     </div>
   );
 };
