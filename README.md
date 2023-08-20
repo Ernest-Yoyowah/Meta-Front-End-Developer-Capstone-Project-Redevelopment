@@ -1,4 +1,4 @@
-# Meta Front-End Developer Capstone Project-Redevelopment
+## Meta Front-End Developer Capstone Project-Redevelopment
 # Little Lemon Restaurant Online Reservation System
 
 ## Overview
