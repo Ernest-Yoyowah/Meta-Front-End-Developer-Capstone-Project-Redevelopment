@@ -17,11 +17,13 @@ Welcome to the Little Lemon Restaurant App! This is a capstone project for the M
 - [x] Implemented responsive design to ensure a seamless experience across various devices.
 
 ## Technologies Used
-This project was meticulously crafted using the following technologies:
+This project was meticulously crafted using the following technologies: \
+![HTML BADGE](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS BADGE](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![REACT BADGE](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 
-- HTML: <FontAwesomeIcon icon={faHtml5} /> HTML5 was used to create the structural foundation of the web pages.
-- CSS: <FontAwesomeIcon icon={faCss3Alt} /> CSS3 was harnessed for styling the web pages, ensuring an appealing visual presentation.
-- React: <FontAwesomeIcon icon={faReact} /> React hooks empowered the management of state and the facilitation of user interactions.
-- [FontAwesome](https://fontawesome.com/): Utilized FontAwesome icons to enhance the visual elements of the project.
+- HTML: Used for the structure of the web pages
+- CSS: Used for styling the web pages
+- React: Used to manage state and handle user interactions
 
 We're excited to present a project that seamlessly blends technology and user experience to redefine online restaurant reservations. Explore, reserve, and enjoy!
