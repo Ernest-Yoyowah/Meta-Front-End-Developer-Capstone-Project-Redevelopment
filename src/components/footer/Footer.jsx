@@ -34,7 +34,7 @@ const Footer = () => {
 
         <div className='connect'>
           <h3>Connect with us</h3>
-          <a href=''>
+          <a href='#'>
             <FontAwesomeIcon icon={faFacebook} className="white-icon"/>
           </a>
           <a href='#'>
