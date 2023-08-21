@@ -22,8 +22,8 @@ const Footer = () => {
             <NavLink to="/about">About</NavLink>
             <NavLink to="/menu">Menu</NavLink>
             <NavLink to="/reservation">Reservations</NavLink>
-            <NavLink to="/order">Order Online</NavLink>
-            <NavLink to="login">Login</NavLink>
+            <NavLink to="/order">Order</NavLink>
+            <NavLink to="/login">Login</NavLink>
         </div>
         <div className='contact-section'>
           <h3>{conHead}</h3>
