@@ -17,9 +17,9 @@ const ReservationForm = () => {
       {!isConfirmed ? (
         <form className='FM' onSubmit={handleFormSubmit}>
           <label htmlFor="res-date" className='fm'>Date</label>
-          <input type="date" id="res-date" className='fm'/>
+          <input type="date" id="res-date" className='fm' required />
           <label htmlFor="res-time" className='fm'>Time</label>
-          <select id="res-time" className='fm'>
+          <select id="res-time" className='fm' required>
             <option>17:00</option>
             <option>18:00</option>
             <option>19:00</option>
@@ -28,9 +28,9 @@ const ReservationForm = () => {
             <option>22:00</option>
           </select>
           <label htmlFor="guests" className='fm'>Number of guests</label>
-          <input type="number" placeholder="1" min="1" max="10" id="guests" className='fm'/>
+          <input type="number" placeholder="1" min="1" max="10" id="guests" className='fm'required />
           <label htmlFor="occasion" className='fm'>Occasion</label>
-          <select id="occasion" className='fm'>
+          <select id="occasion" className='fm' required >
             <option>Birthday</option>
             <option>Anniversary</option>
           </select>
