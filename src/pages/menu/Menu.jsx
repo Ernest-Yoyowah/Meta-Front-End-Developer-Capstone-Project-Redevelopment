@@ -10,7 +10,6 @@ const Menu = () => {
   return (
     <>
     <Navbar />
-    {/* <Line /> */}
     <MenuC />
     <Main />
     <Footer />
