@@ -56,7 +56,6 @@
     min-height: 30.25rem;
     color: #495E57;
     font-family: 'Markazi Text', sans-serif;
-    /* display: flex; */
     flex-direction: column;
     border-radius: 1rem;
     overflow: hidden;
