@@ -64,14 +64,13 @@ form {
     width: 400px;
     margin-top: 2rem;
     height: 40px;
-  }
-  
- form input[type="submit"]:hover {
+}
+
+form input[type="submit"]:hover {
     background-color: #495E57;
     color: white;
-  }
+}
 
-  .confirmation {
+.confirmation {
     margin-top: 1rem;
-  }
-
+}
