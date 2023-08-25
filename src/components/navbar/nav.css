@@ -1,5 +1,4 @@
 .app__nav {
-    /* margin-top: -20.6rem; */
     background: #fff;
     display: flex;
     padding: 1rem 10rem;
@@ -12,7 +11,6 @@
 }
 
 .app__nav-links {
-
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -26,9 +24,7 @@
     font-size: 16.5px;
     line-height: 25px;
     text-transform: capitalize;
-
     cursor: pointer;
-
     margin-left: 7rem;
 }
 .app__nav-links a {
