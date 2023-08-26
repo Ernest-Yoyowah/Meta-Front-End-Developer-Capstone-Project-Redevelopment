@@ -35,6 +35,7 @@ const Nav = () => {
         <div className='app__nav-mobile'>
           <button className='app__nav-toggle' onClick={toggleMenu}>
             <FontAwesomeIcon icon={faBars} className='hamburger-icon' />
+            <FontAwesomeIcon  />
           </button>
           <div className={`app__nav-links ${isClicked ? 'open' : ''}`}>
             <NavLink to='/home'>Home</NavLink>
