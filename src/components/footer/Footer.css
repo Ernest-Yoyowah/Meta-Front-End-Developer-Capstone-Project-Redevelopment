@@ -76,3 +76,30 @@
 .connect {
     margin-left: 4rem;
 }
+
+@media screen and (max-width: 768px) {
+    .footer-section {
+        height: 650px;
+    }
+
+    .ft-container {
+        display: block;
+        padding: 2rem .6rem;
+        color: #fff;
+    }
+    .contact-section {
+        width: 260px;
+        margin-left: 8rem;
+        margin-top: -12rem;
+    }
+
+    .connect {
+        margin-top: 5rem;
+        margin-left: 0;
+        width: 150px;
+    }
+
+    .site-map {
+       display: none;
+    }
+}
