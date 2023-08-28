@@ -57,7 +57,7 @@
     }
     .hold-test {
         display: block;
-        margin: 0;
+        margin: .4rem 1rem 0rem;
     }
 
     .test-top h2 {
